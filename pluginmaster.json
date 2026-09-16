@@ -20,12 +20,12 @@
     "LoadPriority": 0,
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
     "Punchline": "更适合中国宝宝体质的PVPLOGS插件",
-    "Changelog": "* 插件 API 与网页链接切换至 pvpdata.com 正式站点。\n* 修复正式站点健康检查导致的服务离线误报。\n* 账号绑定、上传日志及对局链接统一使用正式域名。",
+    "Changelog": "* 加宽侧边栏，完整显示服务器荷载和延迟。\n* 未完成绑定时可清除本机已选角色，避免旧角色信息造成误解。\n* 插件 API 与网页链接切换至 pvpdata.com 正式站点。\n* 修复正式站点健康检查导致的服务离线误报。\n* 账号绑定、上传日志及对局链接统一使用正式域名。",
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
-    "LastUpdate": "1789490266"
+    "LastUpdate": "1789528952"
   }
 ]
