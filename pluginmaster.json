@@ -3,7 +3,7 @@
     "Author": "Karriis",
     "Name": "PVPLOGSCN",
     "InternalName": "PVPLOGSCN",
-    "AssemblyVersion": "3.0.2.0",
+    "AssemblyVersion": "3.0.3.0",
     "Description": "PVPLOGSCN 是面向中国大陆《最终幻想XIV》玩家的 PvP 数据记录与上传插件，支持水晶冲突、纷争前线和烈羽争锋。插件可查看本地最近战绩、管理上传日志，并为纷争前线采集地图回放数据。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo",
@@ -20,12 +20,12 @@
     "LoadPriority": 0,
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
     "Punchline": "更适合中国宝宝体质的PVPLOGS插件",
-    "Changelog": "* 与 UsedNameReborn 联动：在已启用云端服务且完成隐私确认时，同步本场参与者的曾用名记录。\n* 曾用名仅向赞助用户和管理员展示，不读取 UsedNameReborn 的昵称或其他设置。\n* 加宽侧边栏，完整显示服务器荷载和延迟。\n* 未完成绑定时可清除本机已选角色，避免旧角色信息造成误解。\n* 插件 API 与网页链接切换至 pvpdata.com 正式站点。\n* 修复正式站点健康检查导致的服务离线误报。\n* 账号绑定、上传日志及对局链接统一使用正式域名。",
+    "Changelog": "* 赞助账号最多可绑定 3 个角色，普通账号仍可绑定 1 个。\n* 已绑定账号可在插件内继续绑定当前登录角色。\n* 切换到其他已绑定角色时，云端对局上传不再被本地单角色设置拦截。",
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
-    "LastUpdate": "1789576337"
+    "LastUpdate": "1789630057"
   }
 ]
