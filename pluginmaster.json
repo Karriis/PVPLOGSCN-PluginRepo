@@ -3,7 +3,7 @@
     "Author": "Karriis",
     "Name": "PVPLOGSCN",
     "InternalName": "PVPLOGSCN",
-    "AssemblyVersion": "3.0.3.3",
+    "AssemblyVersion": "3.0.3.4",
     "Description": "PVPLOGSCN 是面向中国大陆《最终幻想XIV》玩家的 PvP 数据记录与上传插件，支持水晶冲突、纷争前线和烈羽争锋。插件可查看本地最近战绩、管理上传日志，并为纷争前线采集地图回放数据。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo",
@@ -20,12 +20,12 @@
     "LoadPriority": 0,
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
     "Punchline": "更适合中国宝宝体质的PVPLOGS插件",
-    "Changelog": "* 个人信息页现在按 Content ID 精确核对当前角色绑定状态，避免把历史重名角色认错。\n* 角色绑定独立页面和可选团队聊天回放采集。",
+    "Changelog": "* 角色换绑现在使用原绑定账号邮箱验证码确认。\\n* 插件等待网页完成邮箱验证的时间已延长。",
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
-    "LastUpdate": "1789638174"
+    "LastUpdate": "1789655906"
   }
-]
+]\n
