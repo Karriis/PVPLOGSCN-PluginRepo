@@ -3,7 +3,7 @@
     "Author": "Karriis",
     "Name": "PVPLOGSCN",
     "InternalName": "PVPLOGSCN",
-    "AssemblyVersion": "3.0.3.14",
+    "AssemblyVersion": "3.0.3.15",
     "Description": "PVPLOGSCN 是面向中国大陆《最终幻想XIV》玩家的 PvP 数据记录与上传插件，支持水晶冲突、纷争前线和烈羽争锋。插件可查看本地最近战绩、管理上传日志，并为纷争前线采集地图回放数据。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo",
@@ -20,12 +20,12 @@
     "LoadPriority": 0,
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
     "Punchline": "更适合中国宝宝体质的PVPLOGS插件",
-    "Changelog": "* 修复水晶冲突的战斗钩子缺少异常保护的问题：钩子内的异常原本会穿过游戏调用栈，可能直接导致游戏崩溃。\n* 修复水晶冲突管理器在钩子初始化失败时残留事件订阅的问题。\n* 修复烈羽争锋在结算兜底流程中于后台线程操作游戏界面的问题。\n* 修复预组队进入战场时，有一个队友尚未加载完成会让整场纷争前线战绩上传失败的问题。\n* 修复水晶冲突、烈羽争锋对局因缺少角色身份而永远无法上传的问题。\n* 修复未绑定账号时纷争前线记录丢失角色身份的问题。",
+    "Changelog": "* 修复上传日志里的「重试」无法重新发送数据的问题。\n* 修复对局数据转换失败时整场对局从上传日志与历史战绩里一起消失的问题。\n* 修复水晶冲突的战斗钩子缺少异常保护的问题：钩子内的异常原本会穿过游戏调用栈，可能直接导致游戏崩溃。\n* 修复水晶冲突管理器在钩子初始化失败时残留事件订阅的问题。\n* 修复烈羽争锋在结算兜底流程中于后台线程操作游戏界面的问题。\n* 修复预组队进入战场时，有一个队友尚未加载完成会让整场纷争前线战绩上传失败的问题。",
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
-    "LastUpdate": "1789755239"
+    "LastUpdate": "1789757045"
   }
 ]
