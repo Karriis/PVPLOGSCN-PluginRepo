@@ -3,7 +3,7 @@
     "Author": "Karriis",
     "Name": "PVPLOGSCN",
     "InternalName": "PVPLOGSCN",
-    "AssemblyVersion": "3.0.3.19",
+    "AssemblyVersion": "3.0.3.20",
     "Description": "PVPLOGSCN 是面向中国大陆《最终幻想XIV》玩家的 PvP 数据记录与上传插件，支持水晶冲突、纷争前线和烈羽争锋。插件可查看本地最近战绩、管理上传日志，并为纷争前线采集地图回放数据。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo",
@@ -20,12 +20,12 @@
     "LoadPriority": 0,
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
     "Punchline": "更适合中国宝宝体质的PVPLOGS插件",
-    "Changelog": "* 移除了从未生效的调试落盘与观战结算钩子，以及配套的调试命令。\n* 修复 PvP 场景中每条游戏日志都会触发一次有副作用的格式化（Dalamud 文档注明可能触发音效）的问题。\n* 修复职业统计每帧查询数据表并分配字符串的问题。\n* 修复补传积压时上传队列被一条记录的状态轮询长时间占住、其余记录无法上传的问题。\n* 修复凭据无法解密时插件每帧重复尝试并刷屏警告日志的问题。\n* 修复地图回放事件没有上限的问题，超出上限会截断并在回放中标记。",
+    "Changelog": "* 修复烈羽争锋因结算包里的空行导致整场战绩上传被拒的问题。\n* 移除了从未生效的调试落盘与观战结算钩子，以及配套的调试命令。\n* 修复 PvP 场景中每条游戏日志都会触发一次有副作用的格式化（Dalamud 文档注明可能触发音效）的问题。\n* 修复职业统计每帧查询数据表并分配字符串的问题。\n* 修复补传积压时上传队列被一条记录的状态轮询长时间占住、其余记录无法上传的问题。\n* 修复凭据无法解密时插件每帧重复尝试并刷屏警告日志的问题。",
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
-    "LastUpdate": "1789759894"
+    "LastUpdate": "1789760660"
   }
 ]
