@@ -3,7 +3,7 @@
     "Author": "Karriis",
     "Name": "PVPLOGSCN",
     "InternalName": "PVPLOGSCN",
-    "AssemblyVersion": "3.0.3.24",
+    "AssemblyVersion": "3.0.3.25",
     "Description": "PVPLOGSCN 是面向中国大陆《最终幻想XIV》玩家的 PvP 数据记录与上传插件，支持水晶冲突、纷争前线和烈羽争锋。插件可查看本地最近战绩、管理上传日志，并为纷争前线采集地图回放数据。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo",
@@ -20,12 +20,12 @@
     "LoadPriority": 0,
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
     "Punchline": "更适合中国宝宝体质的PVPLOGS插件",
-    "Changelog": "* 内部清理：删除无效的钩子登记代码，无功能变化。\n* 修复服务器名解析不出时整场对局作废的问题：现在和缺职业、缺记分板一样只丢掉那一条，其余参赛者照常上传。\n* 修复某一玩法的游戏钩子初始化失败会让整个插件加载失败的问题：现在只停该玩法的记录，另外两种玩法和本地功能照常。\n* 移除 UsedNameReborn 曾用名适配器：插件不再读取外部插件的本地存档来补充曾用名，身份观察只由结算包提供，曾用名归并交由云端处理。\n* 地图回放改为只采集团队联盟频道：此前 /echo、其他插件输出、系统提示与 NPC 对话也会随回放一并上传。\n* 修正五张水晶冲突地图的国服译名。",
+    "Changelog": "* 修复部分对局被整场丢弃的问题。\n* 单个参赛者数据异常时只跳过该条，不再整场失败。\n* 修复预组队进战场导致整场上传被拒。\n* 修复上传失败被静默丢弃、以及重试不重发。\n* 某一玩法钩子异常不再拖垮整个插件。\n* 修复烈羽争锋界面崩溃与结算缺人。\n* 修复绑定页卡住、重试进度停在 90%。\n* 修复战绩与上传日志页面卡顿。\n* 地图回放只采集团队联盟频道。\n* 修正五张水晶冲突地图的国服译名。\n* 移除曾用名适配，不再读取外部插件存档。\n* 内部改进：上传队列改内存快照，上传并发与轮询分离。\n* 内部清理：删除调试采集、无用钩子与命令、约 1600 行死代码。",
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
     "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/latest/download/latest.zip",
-    "LastUpdate": "1789763183"
+    "LastUpdate": "1789851775"
   }
 ]
