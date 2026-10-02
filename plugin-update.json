@@ -1,0 +1,8 @@
+{
+  "version": "3.0.3.32",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.32/latest.zip",
+  "sha256": "f40607c688bea856a8c10ba310ffe30b82620f1d5c7dacbf8afb8e4adb558561",
+  "coreSha256": "6dfcad97155a9d0c6e83a5e493dd09d3c607a5ad6db37cd1f7d5a6c454242fde",
+  "apiLevel": 15,
+  "loaderProtocol": 1
+}
