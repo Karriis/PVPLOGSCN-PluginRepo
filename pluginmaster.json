@@ -2,12 +2,12 @@
   {
     "Author": "Karriis",
     "Name": "PVPLOGSCN 测试版",
-    "Punchline": "测试版：启动强制更新与自动加载验证",
+    "Punchline": "v2 内部测试版：仅限工作人员账号",
     "Description": "PVPLOGSCN 是面向中国大陆《最终幻想XIV》玩家的 PvP 数据记录与上传插件，支持水晶冲突、纷争前线和烈羽争锋。插件可查看本地最近战绩、管理上传日志，并为纷争前线采集地图回放数据。",
     "InternalName": "PVPLOGSCN",
     "RepoUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo",
     "ApplicableVersion": "any",
-    "Changelog": "* 启用插件时独立检查更新，校验新版后自动加载；聊天提示更新开始、完成或失败。\n* 更新不清理本地战绩、上传队列和账号凭据。",
+    "Changelog": "* 新对局使用 v2，仅限工作人员账号；普通用户继续使用正式 v1。\n* 测试数据不合并到正式对局，不影响正式统计或回放。\n* 启用插件时检查更新并自动加载；保留本地历史和原接口待上传记录。",
     "Tags": [
       "pvp",
       "upload",
@@ -15,14 +15,14 @@
       "中文"
     ],
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
-    "LoadSync": false,
-    "DalamudApiLevel": 15,
-    "AssemblyVersion": "3.0.3.30",
     "CanUnloadAsync": false,
+    "AssemblyVersion": "3.0.3.31",
+    "DalamudApiLevel": 15,
+    "LoadSync": false,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.30-testing.20261002/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.30-testing.20261002/latest.zip",
-    "LastUpdate": "1790896878"
+    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.31-testing-v2.20261002/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.31-testing-v2.20261002/latest.zip",
+    "LastUpdate": "1790899315"
   }
 ]
