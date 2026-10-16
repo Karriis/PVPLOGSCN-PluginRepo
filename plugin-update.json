@@ -1,8 +1,8 @@
 {
-  "version": "3.0.3.38",
-  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.38-testing.20261016/latest.zip",
-  "sha256": "ac3a70c92120ec68b501ddf8f85150a1b76123a8092d0cac2103e31ac9eaccb8",
-  "coreSha256": "fae1859f03ca5388e45ae6846d593b9cb60aea03b24a0a3f6e3f7d7209ed136d",
+  "version": "3.0.3.39",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.39-testing.20261016/latest.zip",
+  "sha256": "56885fd00fcc88550f69afb50eb04d739bbe70c53dade2fb6eb379bf05d07115",
+  "coreSha256": "d740608c9f1573684d049a45dd45296bfe37f8a893e3b4715c795e0390dcbec1",
   "apiLevel": 15,
   "loaderProtocol": 1,
   "changelog": "* 修复客户端与插件同时运行时重复采集、重复上传的问题。\n* 调整地图回放位置采集，仅随地图事件保存位置，比分与聊天单独记录。\n* 修复部分加载方式下头像和赞助图片无法显示的问题。\n* 统一浏览器账号绑定流程，提高绑定按钮辨识度。\n* 更新改由卫月安装器处理完整包，同步主体、加载器和安装版本。"
