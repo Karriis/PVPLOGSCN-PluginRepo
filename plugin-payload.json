@@ -1,0 +1,16 @@
+{
+  "version": "3.0.3.42",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.42-testing.20261016/payload.zip",
+  "sha256": "8af9d99d6a22053f51cf365d39246e84c7b5c42e995f8adc50b769b32475ecdd",
+  "coreSha256": "b05295c143d7556a5b8d434e48273c00b4d07729c588da25402563f6259279e2",
+  "apiLevel": 15,
+  "loaderProtocol": 2,
+  "files": {
+    "payload/Assets/plugin-icon.png": "df0b5d5b070187b4616caaa4c62e048a38709c240b9ede25adfbd71a541506c7",
+    "payload/Assets/profile-avatar.png": "24cbfdd2bcaba8d39a4df897b76338a7c29112be92a495b3ae8c6da435b2a557",
+    "payload/Assets/sponsor-afdian.png": "1ddcc7c05c4d701d1c072a6a7d583c02ab60a1dbf3247c8c297d3f30bec6fb13",
+    "payload/PVPLOGSCN.deps.json": "c7748b907414d79ea08faae670fd50c535ebf425287ec8b678a951ac1b705cfc",
+    "payload/PVPLOGSCN.dll": "b05295c143d7556a5b8d434e48273c00b4d07729c588da25402563f6259279e2"
+  },
+  "changelog": "* 更新窗口改用卫月默认 UI、默认字号和标准按钮，移除自绘样式与空白大框。\n* 修复客户端与插件同时运行时重复采集、重复上传的问题。\n* 调整地图回放位置采集，仅随地图事件保存位置，比分与聊天单独记录。\n* 修复部分加载方式下头像和赞助图片无法显示的问题。\n* 统一浏览器账号绑定流程，提高绑定按钮辨识度。\n* 新旧加载器使用独立更新清单，旧版继续兼容；确认后在插件内更新主体、依赖和资源。"
+}
