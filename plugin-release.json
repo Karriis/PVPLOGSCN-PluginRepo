@@ -1,18 +1,18 @@
 {
-  "version": "3.0.3.49",
-  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.49-testing.20261016/payload.zip",
-  "sha256": "0e82d6fb12afafd21e618bdbc163b02234cd14caa6ae6d6b3b87444910d376b0",
-  "coreSha256": "f7ad7da28199f45b6291fb613231c2e7c06a7961a1123c75415531e2bf41d108",
+  "version": "3.0.3.50",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.50-testing.20261016/payload.zip",
+  "sha256": "54f10792dace7c556b94c98e3e4be249ad2801ff25bbe2e6ca38e76c8ae7e80c",
+  "coreSha256": "4f2d147d6bb0fa881d83e2221f282eefb6da4bcaed90ec6bc331cec84a158fe4",
   "apiLevel": 15,
   "loaderProtocol": 3,
   "files": {
     "payload/Assets/plugin-icon.png": "df0b5d5b070187b4616caaa4c62e048a38709c240b9ede25adfbd71a541506c7",
     "payload/Assets/profile-avatar.png": "24cbfdd2bcaba8d39a4df897b76338a7c29112be92a495b3ae8c6da435b2a557",
     "payload/Assets/sponsor-afdian.png": "1ddcc7c05c4d701d1c072a6a7d583c02ab60a1dbf3247c8c297d3f30bec6fb13",
-    "payload/PVPLOGSCN.deps.json": "7ed33e5cd69dad690298a71adf05af5dac89018174e07e248b597353ad238e54",
-    "payload/PVPLOGSCN.dll": "f7ad7da28199f45b6291fb613231c2e7c06a7961a1123c75415531e2bf41d108",
+    "payload/PVPLOGSCN.deps.json": "fde50936d887843fa2da9fb15fec1496b718d33b825bf7e3a03e93d64f8ae863",
+    "payload/PVPLOGSCN.dll": "4f2d147d6bb0fa881d83e2221f282eefb6da4bcaed90ec6bc331cec84a158fe4",
     "payload/PVPLOGSCN.Updater.deps.json": "45b9a328b85e0de8d573181cb7ee6de8960828b2ac6f11d6a72f8bf72460cb39",
     "payload/PVPLOGSCN.Updater.dll": "b5ea0522e4cf3caead42008169084850d3d3dcdd5fa4bdaee27309bc74b635c5"
   },
-  "changelog": "* 没有更新时静默检查并加载，有更新时才显示更新确认窗口。\n* 移除运行日志和自动关闭倒计时。\n* 加载成功后在聊天栏输出“插件已正常加载，当前版本 xxxx”。\n* 保留更新日志、详细日志链接和右侧确认按钮，失败时保留错误及重试。"
+  "changelog": "* 日常更新流程测试：3.0.3.49 → 3.0.3.50。\n* 本次无功能改动。\n* 更新成功后在聊天栏显示当前版本，再次启用无更新时静默加载。"
 }
