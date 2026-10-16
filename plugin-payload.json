@@ -1,16 +1,16 @@
 {
-  "version": "3.0.3.44",
-  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.44-testing.20261016/payload.zip",
-  "sha256": "a432a434276b2e0d4fdaed2cf229e25e3f24f54a5933dc84c192f7c0f5915d30",
-  "coreSha256": "5e2c50801bdd50f8ee8829048809d14b37d09873eec92a151eec15c623c03be9",
+  "version": "3.0.3.45",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.45-testing.20261016/payload.zip",
+  "sha256": "3a00ac49687bd4595f0acd703bdfa42632575323ab2576966aa7f0c5e0dbe0a6",
+  "coreSha256": "f2876d42f012d5fb8a2a40537a29a34c8d20a78b22024ea67843c33edadb5d20",
   "apiLevel": 15,
   "loaderProtocol": 2,
   "files": {
     "payload/Assets/plugin-icon.png": "df0b5d5b070187b4616caaa4c62e048a38709c240b9ede25adfbd71a541506c7",
     "payload/Assets/profile-avatar.png": "24cbfdd2bcaba8d39a4df897b76338a7c29112be92a495b3ae8c6da435b2a557",
     "payload/Assets/sponsor-afdian.png": "1ddcc7c05c4d701d1c072a6a7d583c02ab60a1dbf3247c8c297d3f30bec6fb13",
-    "payload/PVPLOGSCN.deps.json": "85263062e811be284a922a01de9333d20eea93ee9c2220c59197a3a94afa95e5",
-    "payload/PVPLOGSCN.dll": "5e2c50801bdd50f8ee8829048809d14b37d09873eec92a151eec15c623c03be9"
+    "payload/PVPLOGSCN.deps.json": "f19dd27a6cd03f799c8c01f650efd438843de8d5486cc28a72b5dc6c0878df95",
+    "payload/PVPLOGSCN.dll": "f2876d42f012d5fb8a2a40537a29a34c8d20a78b22024ea67843c33edadb5d20"
   },
-  "changelog": "* 主体更新链路测试：3.0.3.43 → 3.0.3.44。\n* 验证插件内确认、下载、校验、加载及再次启用不重复提示。\n* 本次无功能改动，加载器仍为 3.0.3.43。"
+  "changelog": "* 移除更新日志下方说明，更新按钮右对齐，日志末尾添加详细更新日志链接。\n* 修复检查更新时短暂闪现旧更新日志的问题。\n* 更新窗口改用卫月默认 UI、默认字号和标准按钮，移除自绘样式与空白大框。\n* 修复客户端与插件同时运行时重复采集、重复上传的问题。\n* 调整地图回放位置采集，仅随地图事件保存位置，比分与聊天单独记录。\n* 修复部分加载方式下头像和赞助图片无法显示的问题。\n* 统一浏览器账号绑定流程，提高绑定按钮辨识度。\n* 新旧加载器使用独立更新清单，旧版继续兼容；确认后在插件内更新主体、依赖和资源。"
 }
