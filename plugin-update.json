@@ -1,9 +1,16 @@
 {
-  "version": "3.0.3.40",
-  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.40-testing.20261016/latest.zip",
-  "sha256": "f99bfd2cbe553746fff23aca47ab14ebf12cf62c14d0fb9c41412697f50f8490",
-  "coreSha256": "cc782bd47154095170633bd51acb792b432fbded474dc0a19bbb695f4f559acb",
+  "version": "3.0.3.41",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.41-testing.20261016/payload.zip",
+  "sha256": "cb41559accc9531e5207ccdd3192a194128452fc627235ecf479273ded262ffd",
+  "coreSha256": "520766b092683602c2124181fb14bf8ed82b2739f41dd98ed4e601b68d309640",
   "apiLevel": 15,
-  "loaderProtocol": 1,
-  "changelog": "* 缩小插件更新窗口；暂无更新时使用紧凑布局，移除空日志区和重复提示。\n* 修复客户端与插件同时运行时重复采集、重复上传的问题。\n* 调整地图回放位置采集，仅随地图事件保存位置，比分与聊天单独记录。\n* 修复部分加载方式下头像和赞助图片无法显示的问题。\n* 统一浏览器账号绑定流程，提高绑定按钮辨识度。\n* 更新改由卫月安装器处理完整包，同步主体、加载器和安装版本。"
+  "loaderProtocol": 2,
+  "files": {
+    "payload/Assets/plugin-icon.png": "df0b5d5b070187b4616caaa4c62e048a38709c240b9ede25adfbd71a541506c7",
+    "payload/Assets/profile-avatar.png": "24cbfdd2bcaba8d39a4df897b76338a7c29112be92a495b3ae8c6da435b2a557",
+    "payload/Assets/sponsor-afdian.png": "1ddcc7c05c4d701d1c072a6a7d583c02ab60a1dbf3247c8c297d3f30bec6fb13",
+    "payload/PVPLOGSCN.deps.json": "d8570d37092dab3be8092722529104642aae467ae466b0de6fbfc7f7243c55c2",
+    "payload/PVPLOGSCN.dll": "520766b092683602c2124181fb14bf8ed82b2739f41dd98ed4e601b68d309640"
+  },
+  "changelog": "* 更新窗口改用卫月默认 UI、默认字号和标准按钮，移除自绘样式与空白大框。\n* 修复客户端与插件同时运行时重复采集、重复上传的问题。\n* 调整地图回放位置采集，仅随地图事件保存位置，比分与聊天单独记录。\n* 修复部分加载方式下头像和赞助图片无法显示的问题。\n* 统一浏览器账号绑定流程，提高绑定按钮辨识度。\n* 稳定加载器与主体版本分离，确认后在插件内更新主体、依赖和资源。"
 }

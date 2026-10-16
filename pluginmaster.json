@@ -7,7 +7,7 @@
     "InternalName": "PVPLOGSCN",
     "RepoUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo",
     "ApplicableVersion": "any",
-    "Changelog": "* 缩小插件更新窗口；暂无更新时使用紧凑布局，移除空日志区和重复提示。\n* 修复客户端与插件同时运行时重复采集、重复上传的问题。\n* 调整地图回放位置采集，仅随地图事件保存位置，比分与聊天单独记录。\n* 修复部分加载方式下头像和赞助图片无法显示的问题。\n* 统一浏览器账号绑定流程，提高绑定按钮辨识度。\n* 更新改由卫月安装器处理完整包，同步主体、加载器和安装版本。",
+    "Changelog": "* 更新窗口改用卫月默认 UI、默认字号和标准按钮，移除自绘样式与空白大框。\n* 修复客户端与插件同时运行时重复采集、重复上传的问题。\n* 调整地图回放位置采集，仅随地图事件保存位置，比分与聊天单独记录。\n* 修复部分加载方式下头像和赞助图片无法显示的问题。\n* 统一浏览器账号绑定流程，提高绑定按钮辨识度。\n* 稳定加载器与主体版本分离，确认后在插件内更新主体、依赖和资源。",
     "Tags": [
       "pvp",
       "upload",
@@ -15,14 +15,14 @@
       "中文"
     ],
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
-    "LoadSync": false,
+    "AssemblyVersion": "3.0.3.41",
     "CanUnloadAsync": false,
-    "AssemblyVersion": "3.0.3.40",
+    "LoadSync": false,
     "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.40-testing.20261016/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.40-testing.20261016/latest.zip",
-    "LastUpdate": "1792153623"
+    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.41-testing.20261016/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.41-testing.20261016/latest.zip",
+    "LastUpdate": "1792157305"
   }
 ]
