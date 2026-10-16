@@ -1,18 +1,18 @@
 {
-  "version": "3.0.3.48",
-  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.48-testing.20261016/payload.zip",
-  "sha256": "62d7ce301948dd5806dc40f27feb2e5480a84f7b8a29bfb4cd0841fa63064c0d",
-  "coreSha256": "896236fbd9b4b0d3ee2c78de4da260d3d41dc26221aae7769b6674e8f1f2861f",
+  "version": "3.0.3.49",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.49-testing.20261016/payload.zip",
+  "sha256": "0e82d6fb12afafd21e618bdbc163b02234cd14caa6ae6d6b3b87444910d376b0",
+  "coreSha256": "f7ad7da28199f45b6291fb613231c2e7c06a7961a1123c75415531e2bf41d108",
   "apiLevel": 15,
   "loaderProtocol": 3,
   "files": {
     "payload/Assets/plugin-icon.png": "df0b5d5b070187b4616caaa4c62e048a38709c240b9ede25adfbd71a541506c7",
     "payload/Assets/profile-avatar.png": "24cbfdd2bcaba8d39a4df897b76338a7c29112be92a495b3ae8c6da435b2a557",
     "payload/Assets/sponsor-afdian.png": "1ddcc7c05c4d701d1c072a6a7d583c02ab60a1dbf3247c8c297d3f30bec6fb13",
-    "payload/PVPLOGSCN.deps.json": "4578c14ed48049f44dee258f90a3e82b0918ac288404764d9a590168c265080a",
-    "payload/PVPLOGSCN.dll": "896236fbd9b4b0d3ee2c78de4da260d3d41dc26221aae7769b6674e8f1f2861f",
-    "payload/PVPLOGSCN.Updater.deps.json": "c4328a5c1333f32b191d965e435dabd4dc8687727de52017d42089a4ddd78701",
-    "payload/PVPLOGSCN.Updater.dll": "eb03611e29e0dbb5295ef7e1e05186bf717d50af3e944ad1d82df45a28983b8d"
+    "payload/PVPLOGSCN.deps.json": "7ed33e5cd69dad690298a71adf05af5dac89018174e07e248b597353ad238e54",
+    "payload/PVPLOGSCN.dll": "f7ad7da28199f45b6291fb613231c2e7c06a7961a1123c75415531e2bf41d108",
+    "payload/PVPLOGSCN.Updater.deps.json": "45b9a328b85e0de8d573181cb7ee6de8960828b2ac6f11d6a72f8bf72460cb39",
+    "payload/PVPLOGSCN.Updater.dll": "b5ea0522e4cf3caead42008169084850d3d3dcdd5fa4bdaee27309bc74b635c5"
   },
-  "changelog": "* 更新窗口改为带时间的运行日志流，检查、更新、校验及加载结果依次保留。\n* 更新过程中保留本次日志，不再快速切换状态提示。\n* 没有更新且加载成功后，右上角显示 5 秒倒计时并自动关闭。\n* 保留更新说明、详细日志链接和右侧确认按钮。"
+  "changelog": "* 没有更新时静默检查并加载，有更新时才显示更新确认窗口。\n* 移除运行日志和自动关闭倒计时。\n* 加载成功后在聊天栏输出“插件已正常加载，当前版本 xxxx”。\n* 保留更新日志、详细日志链接和右侧确认按钮，失败时保留错误及重试。"
 }
