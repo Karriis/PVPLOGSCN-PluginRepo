@@ -1,0 +1,18 @@
+{
+  "version": "3.0.3.46",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.46-testing.20261016/payload.zip",
+  "sha256": "c147efec06a51c7e5bee744d5081f9a27c929ba6b8fd4365e94a44bfad606c84",
+  "coreSha256": "aa6c8fe04075f4911705b82422ca36254dfde6b736a902ebeecd864a75bc3c4a",
+  "apiLevel": 15,
+  "loaderProtocol": 3,
+  "files": {
+    "payload/Assets/plugin-icon.png": "df0b5d5b070187b4616caaa4c62e048a38709c240b9ede25adfbd71a541506c7",
+    "payload/Assets/profile-avatar.png": "24cbfdd2bcaba8d39a4df897b76338a7c29112be92a495b3ae8c6da435b2a557",
+    "payload/Assets/sponsor-afdian.png": "1ddcc7c05c4d701d1c072a6a7d583c02ab60a1dbf3247c8c297d3f30bec6fb13",
+    "payload/PVPLOGSCN.deps.json": "350b1aa086d572cd4d3218014551db7052d01f52c4a6730b1bb743764a248ee1",
+    "payload/PVPLOGSCN.dll": "aa6c8fe04075f4911705b82422ca36254dfde6b736a902ebeecd864a75bc3c4a",
+    "payload/PVPLOGSCN.Updater.deps.json": "24aa5b6f45731ed5fc9efea325d4c04fb2dd568628f85a729b1e3d37730f1fdd",
+    "payload/PVPLOGSCN.Updater.dll": "242c6481ea19a4ecbd5caed4d7937ef0bba35c2004422633b8524d7162a2d87c"
+  },
+  "changelog": "* 统一插件内更新流程：展示更新日志，确认并更新成功后启用插件。\n* 更新窗口使用默认界面，保留右侧确认按钮和详细更新日志链接。"
+}
