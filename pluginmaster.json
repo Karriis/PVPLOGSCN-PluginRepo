@@ -7,7 +7,7 @@
     "InternalName": "PVPLOGSCN",
     "RepoUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo",
     "ApplicableVersion": "any",
-    "Changelog": "* 发现新版本时显示版本号与更新内容，点击确定更新后才下载。\n* 未更新时不加载插件，不启动采集与上传。\n* 修复更新窗口过窄，并显示下载、校验和加载状态。",
+    "Changelog": "* 更新窗口改为深色面板、红色标题栏与独立更新日志区域。\n* 展示真实下载体积、速度和进度，支持取消与重试。\n* 无更新时明确显示当前已是最新版本，插件正常加载。\n* 保留确认更新后才下载与加载的规则。",
     "Tags": [
       "pvp",
       "upload",
@@ -15,14 +15,14 @@
       "中文"
     ],
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
-    "CanUnloadAsync": false,
-    "AssemblyVersion": "3.0.3.34",
-    "DalamudApiLevel": 15,
     "LoadSync": false,
+    "DalamudApiLevel": 15,
+    "CanUnloadAsync": false,
+    "AssemblyVersion": "3.0.3.36",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.34-testing.20261016/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.34-testing.20261016/latest.zip",
-    "LastUpdate": "1792148053"
+    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.36-testing.20261016/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.36-testing.20261016/latest.zip",
+    "LastUpdate": "1792149630"
   }
 ]

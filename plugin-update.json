@@ -1,9 +1,9 @@
 {
-  "version": "3.0.3.35",
-  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.35-testing.20261016/latest.zip",
-  "sha256": "b1362fdcbd04112ac3ef322fa5a41fe1efd91bbfe88bb14bcb70cd91adea2a26",
-  "coreSha256": "4cdd9c51036cbba7799892bfbd3a7b7dd5c8b7abfa14bdcff11bac00800160ce",
+  "version": "3.0.3.37",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.37-testing.20261016/latest.zip",
+  "sha256": "2000c0f3473c35f03e098394946997b4d6320c34892741b3e67f6c65e418b537",
+  "coreSha256": "a328705edce5351a904fcd6af207fa9c0268c6279e1be6b17bccf0d2c7f279b8",
   "apiLevel": 15,
   "loaderProtocol": 1,
-  "changelog": "* 本次为更新确认流程测试，主体功能与 3.0.3.34 一致。\n* 点击“确定更新”后才下载、校验和加载 3.0.3.35。\n* 未更新时不会加载旧主体，也不启动采集和上传。"
+  "changelog": "* 本次为新版更新面板测试，功能与 3.0.3.36 一致。\n* 深色面板、红色标题栏、独立更新日志。\n* 确认后才下载，展示真实进度与速度，可取消重试。\n* 无更新时显示当前已是最新版本。"
 }
