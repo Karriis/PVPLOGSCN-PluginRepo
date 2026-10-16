@@ -1,18 +1,18 @@
 {
-  "version": "3.0.3.47",
-  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.47-testing.20261016/payload.zip",
-  "sha256": "9abb6ab082534ac4489179239b08689ba66b14468eb54b52eb1a8ea494b197cb",
-  "coreSha256": "0830ceb91e2956e05ed431f452b4cd4c43b6f8274c8743cc25fc7266154a9ae3",
+  "version": "3.0.3.48",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.48-testing.20261016/payload.zip",
+  "sha256": "62d7ce301948dd5806dc40f27feb2e5480a84f7b8a29bfb4cd0841fa63064c0d",
+  "coreSha256": "896236fbd9b4b0d3ee2c78de4da260d3d41dc26221aae7769b6674e8f1f2861f",
   "apiLevel": 15,
   "loaderProtocol": 3,
   "files": {
     "payload/Assets/plugin-icon.png": "df0b5d5b070187b4616caaa4c62e048a38709c240b9ede25adfbd71a541506c7",
     "payload/Assets/profile-avatar.png": "24cbfdd2bcaba8d39a4df897b76338a7c29112be92a495b3ae8c6da435b2a557",
     "payload/Assets/sponsor-afdian.png": "1ddcc7c05c4d701d1c072a6a7d583c02ab60a1dbf3247c8c297d3f30bec6fb13",
-    "payload/PVPLOGSCN.deps.json": "aa911b52810b7f5334817f07674715d55698662c30912ce8aef0abec84ffc2e1",
-    "payload/PVPLOGSCN.dll": "0830ceb91e2956e05ed431f452b4cd4c43b6f8274c8743cc25fc7266154a9ae3",
-    "payload/PVPLOGSCN.Updater.deps.json": "74f4fa19850c5afdf4467424cee5cf0f96607176ab4c099c1eedb64e40d00bda",
-    "payload/PVPLOGSCN.Updater.dll": "978d139fb6eda2f9ef89b786c4a0eb97e5ccc1e7133640b07858784ce4dfa2bf"
+    "payload/PVPLOGSCN.deps.json": "4578c14ed48049f44dee258f90a3e82b0918ac288404764d9a590168c265080a",
+    "payload/PVPLOGSCN.dll": "896236fbd9b4b0d3ee2c78de4da260d3d41dc26221aae7769b6674e8f1f2861f",
+    "payload/PVPLOGSCN.Updater.deps.json": "c4328a5c1333f32b191d965e435dabd4dc8687727de52017d42089a4ddd78701",
+    "payload/PVPLOGSCN.Updater.dll": "eb03611e29e0dbb5295ef7e1e05186bf717d50af3e944ad1d82df45a28983b8d"
   },
-  "changelog": "* 插件更新测试：3.0.3.46 → 3.0.3.47。\n* 验证更新流程自身可以随插件一同更新，确认一次即可完成。\n* 本次无功能改动。"
+  "changelog": "* 更新窗口改为带时间的运行日志流，检查、更新、校验及加载结果依次保留。\n* 更新过程中保留本次日志，不再快速切换状态提示。\n* 没有更新且加载成功后，右上角显示 5 秒倒计时并自动关闭。\n* 保留更新说明、详细日志链接和右侧确认按钮。"
 }
