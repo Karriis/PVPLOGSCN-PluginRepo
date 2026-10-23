@@ -15,14 +15,14 @@
       "中文"
     ],
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
-    "LoadSync": false,
-    "DalamudApiLevel": 15,
-    "AssemblyVersion": "3.0.3.46",
     "CanUnloadAsync": false,
+    "LoadSync": false,
+    "AssemblyVersion": "3.0.3.46",
+    "DalamudApiLevel": 15,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.51/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.51/latest.zip",
-    "LastUpdate": "1792759493"
+    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.52/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.52/latest.zip",
+    "LastUpdate": "1792768125"
   }
 ]

@@ -1,18 +1,18 @@
 {
-  "version": "3.0.3.51",
-  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.51/payload.zip",
-  "sha256": "29ed7b969859f3ab5704b538818bcfe6f25b1d5d1ea9cb9f8fb7dced0d829738",
-  "coreSha256": "db69fbd27f9273f9f2e2905f6c6f64446a91b30b156c99ebefdd4befc0c46896",
+  "version": "3.0.3.52",
+  "archiveUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.52/payload.zip",
+  "sha256": "e7d59a16311bd6830ec01abaa65b512c707494d0d32d32b8a3e7da52122f6347",
+  "coreSha256": "b261f70a89d9c7686bcdf8fa2d2b015c38b15ae65abaed93da75815c976500e3",
   "apiLevel": 15,
   "loaderProtocol": 3,
   "files": {
     "payload/Assets/plugin-icon.png": "df0b5d5b070187b4616caaa4c62e048a38709c240b9ede25adfbd71a541506c7",
     "payload/Assets/profile-avatar.png": "24cbfdd2bcaba8d39a4df897b76338a7c29112be92a495b3ae8c6da435b2a557",
     "payload/Assets/sponsor-afdian.png": "1ddcc7c05c4d701d1c072a6a7d583c02ab60a1dbf3247c8c297d3f30bec6fb13",
-    "payload/PVPLOGSCN.deps.json": "c8856259519600b953069ded377d857b1efa9fab54fc5b35a8f3b2d0c13d6978",
-    "payload/PVPLOGSCN.dll": "db69fbd27f9273f9f2e2905f6c6f64446a91b30b156c99ebefdd4befc0c46896",
+    "payload/PVPLOGSCN.deps.json": "e2a563d3396ffa02b032d88866aa924ea12e4edda037ce886e33d2418226fcb7",
+    "payload/PVPLOGSCN.dll": "b261f70a89d9c7686bcdf8fa2d2b015c38b15ae65abaed93da75815c976500e3",
     "payload/PVPLOGSCN.Updater.deps.json": "45b9a328b85e0de8d573181cb7ee6de8960828b2ac6f11d6a72f8bf72460cb39",
-    "payload/PVPLOGSCN.Updater.dll": "364e0d0971c17a5ae17857391f52ac1934c4ebe574604f9446b93edde9dea1db"
+    "payload/PVPLOGSCN.Updater.dll": "3b25f8d9f09dcb95fcfb7408ea59968451dcc6ff8e6bf7c8052f4207e315cf1f"
   },
   "changelog": "* 新增可选匿名使用统计，默认关闭，可在历史战绩中开启或关闭。仅统计随机安装标识、版本、活跃及上传结果和错误类别，不含账号、角色、聊天或异常堆栈。关闭后重置本机统计标识。\n* 优化客户端与插件的采集协调，避免重复采集和上传。\n* 地图回放仅在地图事件发生时记录玩家位置，积分和聊天单独记录。\n* 修复部分加载方式下头像、赞助图片无法显示的问题。\n* 优化账号绑定按钮，统一用户身份显示。\n* 统一插件内更新：发现新版本时展示更新日志，确认并完成更新后启用插件；没有更新时静默加载。\n* 加载成功后在游戏聊天栏提示当前版本，更新失败保留错误和重试入口。\n\n本次请先通过卫月完整更新一次插件，后续日常更新按插件内提示完成。"
 }
