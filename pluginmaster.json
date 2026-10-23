@@ -2,30 +2,27 @@
   {
     "Author": "Karriis",
     "Name": "PVPLOGSCN",
-    "InternalName": "PVPLOGSCN",
-    "AssemblyVersion": "3.0.3.32",
+    "Punchline": "更适合中国宝宝体质的PVPLOGS插件",
     "Description": "PVPLOGSCN 是面向中国大陆《最终幻想XIV》玩家的 PvP 数据记录与上传插件，支持水晶冲突、纷争前线和烈羽争锋。插件可查看本地最近战绩、管理上传日志，并为纷争前线采集地图回放数据。",
-    "ApplicableVersion": "any",
+    "InternalName": "PVPLOGSCN",
     "RepoUrl": "https://github.com/Karriis/PVPLOGSCN-PluginRepo",
+    "ApplicableVersion": "any",
+    "Changelog": "* 新增可选匿名使用统计，默认关闭，可在历史战绩中开启或关闭。仅统计随机安装标识、版本、活跃及上传结果和错误类别，不含账号、角色、聊天或异常堆栈。关闭后重置本机统计标识。\n* 优化客户端与插件的采集协调，避免重复采集和上传。\n* 地图回放仅在地图事件发生时记录玩家位置，积分和聊天单独记录。\n* 修复部分加载方式下头像、赞助图片无法显示的问题。\n* 优化账号绑定按钮，统一用户身份显示。\n* 统一插件内更新：发现新版本时展示更新日志，确认并完成更新后启用插件；没有更新时静默加载。\n* 加载成功后在游戏聊天栏提示当前版本，更新失败保留错误和重试入口。\n\n本次请先通过卫月完整更新一次插件，后续日常更新按插件内提示完成。",
     "Tags": [
       "pvp",
       "upload",
       "战绩",
       "中文"
     ],
-    "DalamudApiLevel": 15,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "LoadPriority": 0,
     "IconUrl": "https://pvpdata.com/plugin-icon.png?v=4",
-    "Punchline": "更适合中国宝宝体质的PVPLOGS插件",
-    "Changelog": "* 启用插件时检查更新并自动加载，聊天窗口提示更新进度。\n* 优化前线系统事件、点位 ID 和中途加入标记采集。\n* 本地历史默认永久保存，支持按 30、90、365 天手动或自动清理。\n* 修复历史清理确认框文字换行过多。",
-    "AcceptsFeedback": true,
+    "LoadSync": false,
+    "DalamudApiLevel": 15,
+    "AssemblyVersion": "3.0.3.46",
+    "CanUnloadAsync": false,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.32/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.32/latest.zip",
-    "LastUpdate": "1790921943"
+    "DownloadLinkInstall": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.51/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Karriis/PVPLOGSCN-PluginRepo/releases/download/v3.0.3.51/latest.zip",
+    "LastUpdate": "1792759493"
   }
 ]
